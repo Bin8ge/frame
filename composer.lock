@@ -1,0 +1,47 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f825d8a66b16c05aea6a3fa1dc5a5ea7",
+    "packages": [
+        {
+            "name": "bingo/laravelstar",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../laravelStar",
+                "reference": "b130546ffa9d85867e75bc6ada13f7593ff213c7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LaravelStar\\": "src"
+                },
+                "files": [
+                    "src/Support/helpers.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "bingo",
+                    "email": "3362235297@qq.com"
+                }
+            ]
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "bingo/laravelstar": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
