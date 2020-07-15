@@ -16,4 +16,5 @@ $kernel = $app->make(\LaravelStar\Contracts\Http\Kernel::class, [$app]);
 $response = $kernel->handle();
 
 
-echo json_encode($app->make('config')->all());
+var_dump($app->make('route')->getRoutes());
+var_dump(\LaravelStar\Support\Facades\Route::getRoutes());
