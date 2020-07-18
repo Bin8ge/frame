@@ -2,6 +2,6 @@
 return [
     'name' => 'lbb',
     'provider' => [
-        \App\Providers\RouteServiceProvider::class
+    \App\Providers\RouteServiceProvider::class
     ]
 ];

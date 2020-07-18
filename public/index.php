@@ -13,8 +13,9 @@ $app->singleton(
 
 $kernel = $app->make(\LaravelStar\Contracts\Http\Kernel::class, [$app]);
 
-$response = $kernel->handle();
+$response = $kernel->handle(
+    $request = \LaravelStar\Request\Request::capture()
+);
 
 
-var_dump($app->make('route')->getRoutes());
-var_dump(\LaravelStar\Support\Facades\Route::getRoutes());
+

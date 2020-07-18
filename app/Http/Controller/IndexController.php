@@ -5,6 +5,6 @@ class IndexController
 {
     public function index()
     {
-        return 'this is app http controller indexcontroller  index ';
+        echo 'this is app http controller indexcontroller  index </br>';
     }
 }

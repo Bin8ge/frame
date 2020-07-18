@@ -12,7 +12,7 @@ class RouteServiceProvider extends ServiceProvider
     {
 
 //        echo 'register';
-        $this->app->instance('route',$this->app->make('route'));
+        $this->app->instance('route',$this->app->make('route',[$this->app]));
 
     }
 
